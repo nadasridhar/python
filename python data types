@@ -1,14 +1,14 @@
-1) if else condition 
+#if else condition 
 a = 33
 b = 200
 
 if b > a:
   print("b is greater than a")
 
-results: b is greater than a
+#results: b is greater than a
 
 
-2) if else condition 
+#if else condition 
 a = 33
 b = 33
 if b > a:
@@ -16,37 +16,38 @@ if b > a:
 elif a == b:
   print("a and b are equal")
 
-results: a and b are equal
+#results: a and b are equal
 
 
-3) tuples 
+#tuples 
 thistuple = ("bob", "john", "cherry")
 print(thistuple)
 
-results: ('bob', 'john', 'cherry')
+#results: ('bob', 'john', 'cherry')
 
 
-4) tuples 
+#tuples 
 thistuple = ("apple",)
 print(type(thistuple))
+
+#results : <class 'tuple'>
 
 #NOT a tuple
 thistuple = ("apple")
 print(type(thistuple))
 
-results: <class 'tuple'>
-<class 'str'>
+#results: <class 'str'>
 
 
-5) sets
+#sets
 thisset = {"apple", "banana", "cherry"}
 print(thisset)
 
-results: {'apple', 'banana', 'cherry'}
+#results: {'apple', 'banana', 'cherry'}
 
 
-6) lists
+#lists
 thislist = ["apple", "orange", "cherry"]
 print(thislist)
 
-results: ['apple', 'orange', 'cherry']
+#results: ['apple', 'orange', 'cherry']
